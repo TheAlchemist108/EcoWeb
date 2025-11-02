@@ -26,7 +26,8 @@ export default function HeroSection() {
       <div className="container relative py-24 md:py-32">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs text-emerald-700 ring-1 ring-inset ring-emerald-500/20">
+            <p className="text-sm font-medium text-emerald-800">Kaustubh Ramekar</p>
+            <div className="inline-flex items-center gap-2 mt-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs text-emerald-700 ring-1 ring-inset ring-emerald-500/20">
               <CircuitBoard className="h-3.5 w-3.5" />
               Environmentalist Using AI for Good
             </div>
