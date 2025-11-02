@@ -75,7 +75,7 @@ export default function HeroSection() {
               </div>
               <Leaf className="absolute left-6 top-8 h-8 w-8 text-emerald-200" />
               <Zap className="absolute right-8 top-10 h-7 w-7 text-yellow-200" />
-              <Trees className="absolute left-10 bottom-10 h-8 w-8 text-green-200" />
+              <TreePine className="absolute left-10 bottom-10 h-8 w-8 text-green-200" />
               <SatelliteDish className="absolute right-10 bottom-8 h-8 w-8 text-emerald-100" />
               <Cloud className="absolute left-1/2 -translate-x-1/2 -bottom-2 h-7 w-7 text-emerald-100" />
             </div>
