@@ -22,7 +22,7 @@ const posts = [
 function Cover({ index }: { index: number }) {
   return (
     <div className="relative h-40 w-full overflow-hidden rounded-md">
-      <div className="absolute inset-0 bg-gradient-to-tr from-emerald-500/30 via-emerald-300/20 to-teal-300/20" />
+      <div className="absolute inset-0 bg-gradient-to-tr from-emerald-500/30 via-emerald-400/20 to-emerald-300/10" />
       <svg aria-hidden viewBox="0 0 400 160" className="absolute inset-0 h-full w-full text-emerald-900/10">
         <defs>
           <pattern id={`mesh-${index}`} width="40" height="40" patternUnits="userSpaceOnUse">
