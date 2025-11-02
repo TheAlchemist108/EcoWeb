@@ -52,32 +52,16 @@ export default function HeroSection() {
 
           <div className="relative mx-auto w-full max-w-lg">
             <div className="absolute -inset-6 rounded-full bg-gradient-to-tr from-emerald-400/30 via-teal-300/20 to-amber-300/20 blur-2xl" />
-            <div className="relative aspect-square rounded-full bg-gradient-to-b from-emerald-600 to-green-700 p-6 shadow-2xl ring-1 ring-inset ring-emerald-400/30">
-              <div className="absolute inset-6 rounded-full border-2 border-emerald-300/40" />
-              <div className="absolute inset-12 rounded-full border border-emerald-200/30" />
-              <svg viewBox="0 0 200 200" className="absolute inset-0 m-auto h-5/6 w-5/6 opacity-60">
-                <defs>
-                  <clipPath id="globeClip">
-                    <circle cx="100" cy="100" r="90" />
-                  </clipPath>
-                </defs>
-                <g clipPath="url(#globeClip)" stroke="hsl(var(--foreground))" strokeOpacity="0.25" strokeWidth="0.6">
-                  {Array.from({ length: 7 }).map((_, i) => (
-                    <circle key={i} cx="100" cy="100" r={20 + i * 10} fill="none" />
-                  ))}
-                  {Array.from({ length: 6 }).map((_, i) => (
-                    <path key={i} d={`M0 ${30 + i * 20} C 50 ${10 + i * 20}, 150 ${50 + i * 20}, 200 ${30 + i * 20}`} fill="none" />
-                  ))}
-                </g>
-              </svg>
-              <div className="absolute inset-0 grid place-items-center text-emerald-200/90">
-                <Globe2 className="h-28 w-28" />
+            <div className="relative aspect-square rounded-full bg-gradient-to-b from-emerald-700 to-emerald-600 p-4 shadow-2xl ring-1 ring-inset ring-emerald-500/20 overflow-hidden">
+              <div className="absolute inset-4 rounded-full border-2 border-emerald-600/20" />
+              <div className="absolute inset-10 rounded-full border border-emerald-500/10" />
+
+              <div className="absolute inset-6 grid place-items-center">
+                <img src="/earth.svg" alt="Earth" className="h-full w-full object-contain rounded-full" />
               </div>
-              <Leaf className="absolute left-6 top-8 h-8 w-8 text-emerald-200" />
-              <Zap className="absolute right-8 top-10 h-7 w-7 text-yellow-200" />
-              <TreePine className="absolute left-10 bottom-10 h-8 w-8 text-green-200" />
-              <SatelliteDish className="absolute right-10 bottom-8 h-8 w-8 text-emerald-100" />
-              <Cloud className="absolute left-1/2 -translate-x-1/2 -bottom-2 h-7 w-7 text-emerald-100" />
+
+              <img src="/leaf.svg" alt="Leaf" className="absolute left-6 top-8 h-8 w-8 opacity-90" />
+              <img src="/tree.svg" alt="Tree" className="absolute left-10 bottom-10 h-14 w-14 opacity-95" />
             </div>
           </div>
         </div>
