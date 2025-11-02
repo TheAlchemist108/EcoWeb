@@ -48,7 +48,6 @@ export default function HeroSection() {
               </div>
 
               <img src="/leaf.svg" alt="Leaf" className="absolute left-6 top-8 h-8 w-8 opacity-90" />
-              <img src="/tree.svg" alt="Tree" className="absolute left-10 bottom-10 h-14 w-14 opacity-95" />
             </div>
           </div>
         </div>
