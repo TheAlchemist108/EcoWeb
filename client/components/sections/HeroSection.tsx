@@ -38,10 +38,10 @@ export default function HeroSection() {
           </div>
 
           <div className="relative mx-auto w-full max-w-lg">
-            <div className="absolute -inset-6 rounded-full bg-gradient-to-tr from-emerald-400/30 via-teal-300/20 to-amber-300/20 blur-2xl" />
-            <div className="relative aspect-square rounded-full bg-gradient-to-b from-emerald-700 to-emerald-600 p-4 shadow-2xl ring-1 ring-inset ring-emerald-500/20 overflow-hidden">
-              <div className="absolute inset-4 rounded-full border-2 border-emerald-600/20" />
-              <div className="absolute inset-10 rounded-full border border-emerald-500/10" />
+            <div className="absolute -inset-6 bg-gradient-to-tr from-emerald-400/30 via-emerald-400/20 to-emerald-300/20 blur-2xl" />
+            <div className="relative aspect-square bg-gradient-to-b from-emerald-700 to-emerald-600 p-4 shadow-2xl ring-1 ring-inset ring-emerald-500/20 overflow-hidden">
+              <div className="absolute inset-4 border-2 border-emerald-600/20" />
+              <div className="absolute inset-10 border border-emerald-500/10" />
 
               {/* center graphic removed */}
 
