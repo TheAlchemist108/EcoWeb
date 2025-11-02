@@ -11,11 +11,11 @@ export default function HeroSection() {
             <defs>
               <pattern id="circuit" width="80" height="80" patternUnits="userSpaceOnUse">
                 <path d="M0 40H80M40 0V80" stroke="currentColor" strokeWidth="1" opacity="0.6" />
-                <circle cx="40" cy="40" r="2" fill="currentColor" />
-                <circle cx="0" cy="40" r="2" fill="currentColor" />
-                <circle cx="80" cy="40" r="2" fill="currentColor" />
-                <circle cx="40" cy="0" r="2" fill="currentColor" />
-                <circle cx="40" cy="80" r="2" fill="currentColor" />
+                <rect x="38" y="38" width="4" height="4" fill="currentColor" />
+                <rect x="-2" y="38" width="4" height="4" fill="currentColor" />
+                <rect x="78" y="38" width="4" height="4" fill="currentColor" />
+                <rect x="38" y="-2" width="4" height="4" fill="currentColor" />
+                <rect x="38" y="78" width="4" height="4" fill="currentColor" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#circuit)" />
