@@ -14,8 +14,8 @@ export default function HowItWorksSection() {
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((it) => (
             <div key={it.title} className="rounded-xl border bg-gradient-to-br from-emerald-50 to-slate-50 p-6 shadow-sm">
-              <div className="inline-flex h-10 w-10 items-center justify-center rounded-md bg-emerald-600/10 text-emerald-700">
-                <it.icon className="h-5 w-5" />
+              <div className="inline-flex h-10 w-10 items-center justify-center rounded-md bg-emerald-700/10 text-emerald-700">
+                <it.icon className="h-5 w-5 text-emerald-700" />
               </div>
               <h3 className="mt-3 text-lg font-semibold">{it.title}</h3>
               <p className="mt-2 text-sm text-muted-foreground">{it.text}</p>
