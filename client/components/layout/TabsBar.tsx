@@ -3,7 +3,6 @@ import { cn } from "@/lib/utils";
 
 const tabs = [
   { id: "about", label: "My Journey" },
-  { id: "achievements", label: "Achievements" },
   { id: "contact", label: "Join Hands" },
 ];
 
