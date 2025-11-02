@@ -9,9 +9,10 @@ export default function AboutSection() {
       </div>
       <div className="container grid gap-10 md:grid-cols-2 items-center">
         <div className="relative order-2 md:order-1">
-          <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-2xl border border-emerald-500/20 bg-gradient-to-b from-emerald-200/40 to-emerald-100/20 p-3 shadow-lg">
+          <div className="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-2xl border border-emerald-700/10 bg-gradient-to-b from-emerald-200/50 to-emerald-100/20 p-3 shadow-lg">
+            <img src="/tree.svg" alt="Portrait" className="relative h-full w-full rounded-xl object-cover" />
             <div className="absolute inset-0 pointer-events-none">
-              <svg aria-hidden viewBox="0 0 400 500" className="h-full w-full text-emerald-700/10">
+              <svg aria-hidden viewBox="0 0 400 500" className="h-full w-full text-emerald-800/8">
                 <defs>
                   <pattern id="nodes" width="40" height="40" patternUnits="userSpaceOnUse">
                     <circle cx="4" cy="4" r="2" fill="currentColor" />
@@ -22,7 +23,6 @@ export default function AboutSection() {
                 <rect width="100%" height="100%" fill="url(#nodes)" />
               </svg>
             </div>
-            <div className="relative h-full w-full rounded-xl bg-gradient-to-b from-emerald-300/40 via-emerald-200/30 to-emerald-100/10" />
           </div>
         </div>
         <div className="order-1 md:order-2">
