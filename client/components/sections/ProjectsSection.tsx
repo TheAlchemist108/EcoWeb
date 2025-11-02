@@ -39,17 +39,17 @@ export default function ProjectsSection() {
         <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Milestones in Sustainability</h2>
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((p) => (
-            <Card key={p.title} className="group border-emerald-900/10 bg-card/70 backdrop-blur-sm">
+            <Card key={p.title} className="group border-emerald-800/10 bg-card/70 backdrop-blur-sm">
               <CardHeader>
-                <div className="inline-flex h-10 w-10 items-center justify-center rounded-md bg-emerald-600/10 text-emerald-700">
-                  <p.icon className="h-5 w-5" />
+                <div className="inline-flex h-10 w-10 items-center justify-center rounded-md bg-emerald-700/10 text-emerald-700">
+                  <p.icon className="h-5 w-5 text-emerald-700" />
                 </div>
                 <CardTitle className="mt-2 text-xl">{p.title}</CardTitle>
                 <CardDescription>{p.desc}</CardDescription>
               </CardHeader>
               <CardContent />
               <CardFooter>
-                <Button className="group-hover:shadow-emerald-600/20 group-hover:shadow-lg">Explore Project</Button>
+                <Button className="group-hover:shadow-emerald-700/30 group-hover:shadow-lg">Explore Project</Button>
               </CardFooter>
             </Card>
           ))}
