@@ -1,5 +1,13 @@
 import { Button } from "@/components/ui/button";
-import { Globe2, Leaf, Zap, TreePine, SatelliteDish, Cloud, CircuitBoard } from "lucide-react";
+import {
+  Globe2,
+  Leaf,
+  Zap,
+  TreePine,
+  SatelliteDish,
+  Cloud,
+  CircuitBoard,
+} from "lucide-react";
 
 export default function HeroSection() {
   return (
@@ -7,10 +15,24 @@ export default function HeroSection() {
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/20 via-emerald-300/10 to-amber-200/20" />
         <div className="absolute inset-0 opacity-50 [mask-image:radial-gradient(60%_60%_at_50%_20%,black,transparent)]">
-          <svg aria-hidden viewBox="0 0 1200 800" className="h-full w-full text-emerald-700/20">
+          <svg
+            aria-hidden
+            viewBox="0 0 1200 800"
+            className="h-full w-full text-emerald-700/20"
+          >
             <defs>
-              <pattern id="circuit" width="80" height="80" patternUnits="userSpaceOnUse">
-                <path d="M0 40H80M40 0V80" stroke="currentColor" strokeWidth="1" opacity="0.6" />
+              <pattern
+                id="circuit"
+                width="80"
+                height="80"
+                patternUnits="userSpaceOnUse"
+              >
+                <path
+                  d="M0 40H80M40 0V80"
+                  stroke="currentColor"
+                  strokeWidth="1"
+                  opacity="0.6"
+                />
                 <rect x="38" y="38" width="4" height="4" fill="currentColor" />
                 <rect x="-2" y="38" width="4" height="4" fill="currentColor" />
                 <rect x="78" y="38" width="4" height="4" fill="currentColor" />
@@ -30,10 +52,13 @@ export default function HeroSection() {
               Kaustubh Ramekar
             </h1>
             <p className="mt-4 max-w-2xl text-base md:text-lg text-emerald-800">
-              Passionate environmentalist and advocate for clean energy, dedicated to building a sustainable future.
+              Passionate environmentalist and advocate for clean energy,
+              dedicated to building a sustainable future.
             </p>
             <p className="mt-2 max-w-2xl text-base md:text-lg text-emerald-800">
-              Innovating for a greener world with AI, leveraging artificial intelligence to protect nature, conserve energy, and drive lasting sustainable change.
+              Innovating for a greener world with AI, leveraging artificial
+              intelligence to protect nature, conserve energy, and drive lasting
+              sustainable change.
             </p>
           </div>
 
@@ -45,7 +70,11 @@ export default function HeroSection() {
 
               {/* center graphic removed */}
 
-              <img src="/leaf.svg" alt="Leaf" className="absolute left-6 top-8 h-8 w-8 opacity-90" />
+              <img
+                src="/leaf.svg"
+                alt="Leaf"
+                className="absolute left-6 top-8 h-8 w-8 opacity-90"
+              />
             </div>
           </div>
         </div>

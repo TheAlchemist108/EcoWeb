@@ -119,9 +119,17 @@
   }
 
   /* Remove circular shapes site-wide per request */
-  .rounded-full { border-radius: 0 !important; }
+  .rounded-full {
+    border-radius: 0 !important;
+  }
   /* Hide SVG circle elements (dots and circular decorations) */
-  svg circle { display: none !important; }
+  svg circle {
+    display: none !important;
+  }
   /* Replace small circular indicators with squares appearance */
-  svg .fill-current.h-2, svg .fill-current.h-2.5, svg .fill-current.h-3 { display: none !important; }
+  svg .fill-current.h-2,
+  svg .fill-current.h-2.5,
+  svg .fill-current.h-3 {
+    display: none !important;
+  }
 }

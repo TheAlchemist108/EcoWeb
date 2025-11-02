@@ -21,7 +21,7 @@ export default function TabsBar() {
             if (entry.isIntersecting) setActive(t.id);
           });
         },
-        { root: null, rootMargin: "-40% 0px -40% 0px", threshold: 0 }
+        { root: null, rootMargin: "-40% 0px -40% 0px", threshold: 0 },
       );
       obs.observe(el);
       observers.push(obs);
@@ -37,14 +37,16 @@ export default function TabsBar() {
           <button
             key={t.id}
             onClick={() => {
-              const el = document.getElementById(t.id) || document.getElementById("about");
+              const el =
+                document.getElementById(t.id) ||
+                document.getElementById("about");
               if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
             }}
             className={cn(
               "rounded-full px-4 py-2 text-sm font-medium whitespace-nowrap transition-all",
               active === t.id
                 ? "bg-emerald-700 text-white shadow-md"
-                : "text-foreground/80 hover:text-foreground"
+                : "text-foreground/80 hover:text-foreground",
             )}
           >
             {t.label}
