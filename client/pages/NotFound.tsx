@@ -18,7 +18,7 @@ const NotFound = () => {
           <svg aria-hidden viewBox="0 0 400 200" className="h-full w-full text-emerald-600/20">
             <defs>
               <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
-                <circle cx="2" cy="2" r="1.5" fill="currentColor" />
+                <rect x="1" y="1" width="2" height="2" fill="currentColor" />
               </pattern>
             </defs>
             <rect width="100%" height="100%" fill="url(#dots)" />
