@@ -26,29 +26,9 @@ export default function HeroSection() {
       <div className="container relative py-24 md:py-32">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-sm font-medium text-emerald-800">Kaustubh Ramekar</p>
-            <div className="inline-flex items-center gap-2 mt-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs text-emerald-700 ring-1 ring-inset ring-emerald-500/20">
-              <CircuitBoard className="h-3.5 w-3.5" />
-              Environmentalist Using AI for Good
-            </div>
-            <h1 className="mt-5 text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">
-              Innovating for a Greener Future with AI
+            <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold leading-tight text-emerald-900">
+              Kaustubh Ramekar
             </h1>
-            <p className="mt-5 text-lg text-muted-foreground max-w-xl">
-              Harnessing artificial intelligence to protect nature, save energy, and drive sustainable change.
-            </p>
-            <div className="mt-8 flex flex-wrap items-center gap-4">
-              <Button
-                size="lg"
-                onClick={() => {
-                  const el = document.getElementById("contact");
-                  if (el) el.scrollIntoView({ behavior: "smooth" });
-                }}
-                className="shadow-lg shadow-emerald-600/20"
-              >
-                Let’s Make an Impact Together
-              </Button>
-            </div>
           </div>
 
           <div className="relative mx-auto w-full max-w-lg">
