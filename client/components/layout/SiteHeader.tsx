@@ -16,37 +16,7 @@ export function SiteHeader() {
           </span>
           <span className="font-semibold tracking-tight">EcoAI</span>
         </Link>
-        <nav className="hidden md:flex items-center gap-6 text-sm">
-          {[
-            { id: "about", label: "About" },
-            { id: "projects", label: "Projects" },
-            { id: "path", label: "My Path" },
-            { id: "blog", label: "Blog" },
-            { id: "contact", label: "Contact" },
-          ].map((item) => (
-            <button
-              key={item.id}
-              onClick={() => {
-                const el = document.getElementById(item.id);
-                if (el) el.scrollIntoView({ behavior: "smooth" });
-              }}
-              className="hover:text-primary"
-            >
-              {item.label}
-            </button>
-          ))}
-        </nav>
-        <div className="flex items-center gap-2">
-          <Button
-            onClick={() => {
-              const el = document.getElementById("contact");
-              if (el) el.scrollIntoView({ behavior: "smooth" });
-            }}
-            className={cn("hidden sm:inline-flex shadow-sm", isHome ? "bg-primary" : "")}
-          >
-            Let’s Make an Impact Together
-          </Button>
-        </div>
+        {/* Top nav and CTA removed per request */}
       </div>
     </header>
   );
