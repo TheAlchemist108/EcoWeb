@@ -27,7 +27,7 @@ function Cover({ index }: { index: number }) {
         <defs>
           <pattern id={`mesh-${index}`} width="40" height="40" patternUnits="userSpaceOnUse">
             <path d="M0 20H40M20 0V40" stroke="currentColor" strokeWidth="0.6" />
-            <circle cx="20" cy="20" r="2" fill="currentColor" />
+            <rect x="18" y="18" width="4" height="4" fill="currentColor" />
           </pattern>
         </defs>
         <rect width="100%" height="100%" fill={`url(#mesh-${index})`} />
