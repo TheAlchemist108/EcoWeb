@@ -44,7 +44,16 @@ export default function HeroSection() {
               <div className="absolute inset-10 rounded-full border border-emerald-500/10" />
 
               <div className="absolute inset-6 grid place-items-center">
-                <img src="/earth.svg" alt="Earth" className="h-full w-full object-contain rounded-full" />
+                {/* Earth image removed as requested */}
+                <svg width="120" height="120" viewBox="0 0 120 120" className="h-3/4 w-3/4 opacity-60">
+                  <circle cx="60" cy="60" r="48" fill="url(#g1)" />
+                  <defs>
+                    <radialGradient id="g1">
+                      <stop offset="0%" stopColor="#9AE6B4" />
+                      <stop offset="100%" stopColor="#2F855A" />
+                    </radialGradient>
+                  </defs>
+                </svg>
               </div>
 
               <img src="/leaf.svg" alt="Leaf" className="absolute left-6 top-8 h-8 w-8 opacity-90" />
