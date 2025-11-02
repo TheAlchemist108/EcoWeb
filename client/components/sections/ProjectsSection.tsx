@@ -27,8 +27,8 @@ export default function ProjectsSection() {
         <svg aria-hidden viewBox="0 0 1200 600" className="h-full w-full text-emerald-700/10">
           <defs>
             <pattern id="network" width="80" height="80" patternUnits="userSpaceOnUse">
-              <circle cx="8" cy="8" r="2" fill="currentColor" />
-              <circle cx="72" cy="72" r="2" fill="currentColor" />
+              <rect x="6" y="6" width="4" height="4" fill="currentColor" />
+              <rect x="70" y="70" width="4" height="4" fill="currentColor" />
               <line x1="8" y1="8" x2="72" y2="72" stroke="currentColor" strokeWidth="0.6" />
             </pattern>
           </defs>
