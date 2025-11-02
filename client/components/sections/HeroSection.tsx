@@ -26,7 +26,7 @@ export default function HeroSection() {
       <div className="container relative py-24 md:py-32">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-extrabold leading-tight text-emerald-900">
+            <h1 className="text-[clamp(2.5rem,8vw,6.5rem)] font-extrabold leading-tight text-emerald-900 whitespace-nowrap overflow-hidden">
               Kaustubh Ramekar
             </h1>
             <p className="mt-6 max-w-2xl text-lg md:text-xl text-emerald-800">
