@@ -23,16 +23,16 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <div className="container relative py-24 md:py-32">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h1 className="text-[clamp(2.5rem,8vw,6.5rem)] font-extrabold leading-tight text-emerald-900 whitespace-nowrap overflow-hidden">
+      <div className="container relative pt-6 md:pt-8 pb-12">
+        <div className="grid md:grid-cols-2 gap-12 items-start">
+          <div className="pt-2">
+            <h1 className="text-[clamp(2.25rem,7.5vw,5.5rem)] md:text-[clamp(3rem,8vw,6.5rem)] font-extrabold leading-tight text-emerald-900 whitespace-nowrap mt-0">
               Kaustubh Ramekar
             </h1>
-            <p className="mt-6 max-w-2xl text-lg md:text-xl text-emerald-800">
+            <p className="mt-4 max-w-2xl text-base md:text-lg text-emerald-800">
               Passionate environmentalist and advocate for clean energy, dedicated to building a sustainable future.
             </p>
-            <p className="mt-3 max-w-2xl text-lg md:text-xl text-emerald-800">
+            <p className="mt-2 max-w-2xl text-base md:text-lg text-emerald-800">
               Innovating for a greener world with AI, leveraging artificial intelligence to protect nature, conserve energy, and drive lasting sustainable change.
             </p>
           </div>
