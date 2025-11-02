@@ -33,7 +33,7 @@ export default function HeroSection() {
               Passionate environmentalist and advocate for clean energy, dedicated to building a sustainable future.
             </p>
             <p className="mt-3 max-w-2xl text-lg md:text-xl text-emerald-800">
-              Innovating for a greener world with AI—leveraging artificial intelligence to protect nature, conserve energy, and drive lasting sustainable change.
+              Innovating for a greener world with AI, leveraging artificial intelligence to protect nature, conserve energy, and drive lasting sustainable change.
             </p>
           </div>
 
