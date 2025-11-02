@@ -4,9 +4,7 @@ import { cn } from "@/lib/utils";
 const tabs = [
   { id: "about", label: "My Journey" },
   { id: "achievements", label: "Achievements" },
-  { id: "blog", label: "GreenTech Insights" },
   { id: "contact", label: "Join Hands" },
-  { id: "projects", label: "Milestones in Sustainability" },
 ];
 
 export default function TabsBar() {
