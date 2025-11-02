@@ -17,11 +17,24 @@ export function SiteHeader() {
           <span className="font-semibold tracking-tight">EcoAI</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm">
-          <a href="#about" className="hover:text-primary">About</a>
-          <a href="#projects" className="hover:text-primary">Projects</a>
-          <a href="#path" className="hover:text-primary">My Path</a>
-          <a href="#blog" className="hover:text-primary">Blog</a>
-          <a href="#contact" className="hover:text-primary">Contact</a>
+          {[
+            { id: "about", label: "About" },
+            { id: "projects", label: "Projects" },
+            { id: "path", label: "My Path" },
+            { id: "blog", label: "Blog" },
+            { id: "contact", label: "Contact" },
+          ].map((item) => (
+            <button
+              key={item.id}
+              onClick={() => {
+                const el = document.getElementById(item.id);
+                if (el) el.scrollIntoView({ behavior: "smooth" });
+              }}
+              className="hover:text-primary"
+            >
+              {item.label}
+            </button>
+          ))}
         </nav>
         <div className="flex items-center gap-2">
           <Button
