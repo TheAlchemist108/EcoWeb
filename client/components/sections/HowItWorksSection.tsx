@@ -13,7 +13,7 @@ export default function HowItWorksSection() {
         <h2 className="text-3xl md:text-4xl font-bold tracking-tight">My Path to Climate Action</h2>
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((it) => (
-            <div key={it.title} className="rounded-xl border bg-gradient-to-br from-emerald-50 to-slate-50 p-6 shadow-sm">
+            <div key={it.title} className="rounded-xl border bg-gradient-to-br from-emerald-50 to-emerald-100 p-6 shadow-sm">
               <div className="inline-flex h-10 w-10 items-center justify-center rounded-md bg-emerald-700/10 text-emerald-700">
                 <it.icon className="h-5 w-5 text-emerald-700" />
               </div>
