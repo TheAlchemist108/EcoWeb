@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Globe2, Leaf, Zap, Trees, SatelliteDish, Cloud, CircuitBoard } from "lucide-react";
+import { Globe2, Leaf, Zap, TreePine, SatelliteDish, Cloud, CircuitBoard } from "lucide-react";
 
 export default function HeroSection() {
   return (
