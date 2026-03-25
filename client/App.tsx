@@ -8,6 +8,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import Treasure from "./pages/Treasure";
 import SiteHeader from "@/components/layout/SiteHeader";
 import TabsBar from "@/components/layout/TabsBar";
 import SiteFooter from "@/components/layout/SiteFooter";
@@ -24,6 +25,7 @@ const App = () => (
         <TabsBar />
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/treasure" element={<Treasure />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
