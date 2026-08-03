@@ -78,7 +78,7 @@ export default function BlogPreviewSection() {
       </div>
       <div className="container">
         <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-          Green Tech Perspectives
+          Blog
         </h2>
         <div className="mt-8 columns-1 sm:columns-2 lg:columns-3 gap-6 [column-fill:balance]">
           {posts.map((p, i) => (
